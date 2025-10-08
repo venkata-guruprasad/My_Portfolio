@@ -1,0 +1,31 @@
+/* src/styles/Resume.module.css */
+.resume {
+  padding: 50px;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: #0f172a;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.skills {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills span {
+  background: #e2e8f0;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: greenyellow;
+  color: black;
+}

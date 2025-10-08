@@ -1,0 +1,26 @@
+/* src/styles/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  background: #0f172a;
+  color: white;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+/* .menu a:hover {
+  color: #38bdf8;
+} */
